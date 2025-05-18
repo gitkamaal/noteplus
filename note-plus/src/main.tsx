@@ -5,4 +5,4 @@ import "@/components/tiptap-templates/simple/simple-editor.scss"
 
 const App = () => <SimpleEditor />
 
-createRoot(document.getElementById("root")!).render(<App />)
+createRoot(document.getElementById("app")!).render(<App />)
